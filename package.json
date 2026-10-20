@@ -1,0 +1,1 @@
+{ "name": "ca-e2e", "private": true, "type": "module", "scripts": { "test": "node --test", "lint": "node --check src/math.js" } }

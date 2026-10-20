@@ -1,0 +1,1 @@
+import { test } from "node:test"; import assert from "node:assert/strict"; import { existsSync, readFileSync } from "node:fs"; test("gate", () => assert.notEqual(existsSync("GATE") ? readFileSync("GATE", "utf8").trim() : "pass", "fail"));
